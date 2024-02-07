@@ -33,7 +33,16 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
-        pass
+        variable= prompt ("titulo" , "nombre")
+        self.txt_nombre.insert (0 ,variable)
+        
+    
+        
+
+
+
+        
+
         
     
 if __name__ == "__main__":
